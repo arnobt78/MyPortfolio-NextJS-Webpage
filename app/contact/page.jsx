@@ -236,7 +236,7 @@ export default function Contact() {
               onSubmit={handleSubmit} 
             >
               <h3 className="text-4xl text-accent">Let&apos;s work together</h3>
-              <p className="text-white/60">
+              <p className="text-white/60 text-justify">
               Having recently completed my master’s degree, I am excited to begin my career in Germany or elsewhere in Europe and am open to Intern, Part-Time, or Full-Time opportunities. I am also willing to relocate as needed. I am enthusiastic about the chance to apply my skills and grow within your company. I am open to discussing a starting salary at minimum wage, with my primary focus being on gaining valuable experience and further developing my expertise.
               </p>
               <div className="grid  gap-6">
