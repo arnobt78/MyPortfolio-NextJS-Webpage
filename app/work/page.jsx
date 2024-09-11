@@ -28,20 +28,20 @@ const projects = [
   },
   {
     num: "02",
-    category: "Frontend",
-    title: "Cinemate-ReactWebsite",
+    category: "Fullstack",
+    title: "AI-Rag-ChatBot-NextJS",
     description:
-      "Cinemate is a full-fledged React Movie Information Web Application (Component Level State Application), using TailwindCSS and the help of Flowbite TailwindCSS framework. React Core, Hooks, APIs (TMDB), Routing, HTML, TailwindCSS, Responsive Screen, Dark/Light Mode, and Search functionalities have been used in this project and deployed on Netlify.",
+      "AI-Rag-ChatBot is a complete project example with RAGChat and Next.js 14, using Upstash Vector Database, Upstash Qstash, Upstash Redis, Dynamic Webpage Folder, Middleware, Typescript, Vercel AI SDK for the Client side Hook, Lucide-React for Icon, Shadcn-UI, Next-UI Library Plugin to modify TailwindCSS and deploy on Vercel. It is not just an AI, but also a pattern convension and provides reply super fast and it also can memorize all previous chat history from the Vector Storage so it doesn't have to reload the page again once its already indexed.",
     stack: [
+      { name: "Next.js" },
       { name: "React.js" },
       { name: "Tailwind.css" },
-      { name: "Node.js" },
-      { name: "API" },
-      { name: "HTML 5" },
+      { name: "Upstash Vector" },
+      { name: "Shadcn-UI" },
     ],
     image: "/assets/work/project02.png",
-    live: "https://cinemate-arnob.netlify.app",
-    github: "https://github.com/arnobt78/Cinemate-ReactWebsite",
+    live: "https://ai-rag-chatbot-arnob.vercel.app/https:/www.wikipedia.org",
+    github: "https://github.com/arnobt78/AI-Rag-ChatBot-NextJS",
   },
   {
     num: "03",
@@ -83,6 +83,23 @@ const projects = [
   },
   {
     num: "05",
+    category: "Frontend",
+    title: "Cinemate-ReactWebsite",
+    description:
+      "Cinemate is a full-fledged React Movie Information Web Application (Component Level State Application), using TailwindCSS and the help of Flowbite TailwindCSS framework. React Core, Hooks, APIs (TMDB), Routing, HTML, TailwindCSS, Responsive Screen, Dark/Light Mode, and Search functionalities have been used in this project and deployed on Netlify.",
+    stack: [
+      { name: "React.js" },
+      { name: "Tailwind.css" },
+      { name: "Node.js" },
+      { name: "API" },
+      { name: "HTML 5" },
+    ],
+    image: "/assets/work/project05.png",
+    live: "https://cinemate-arnob.netlify.app",
+    github: "https://github.com/arnobt78/Cinemate-ReactWebsite",
+  },
+  {
+    num: "06",
     category: "Fullstack",
     title: "Woozzlle-Game-AndriodApp",
     description:
@@ -93,12 +110,12 @@ const projects = [
       { name: "XML" },
       { name: "Adobe Photoshop" },
     ],
-    image: "/assets/work/project05.png",
+    image: "/assets/work/project06.png",
     live: "https://github.com/arnobt78/Woozzle-Wood-Puzzle-Game-AndriodApp",
     github: "https://github.com/arnobt78/Woozzle-Wood-Puzzle-Game-AndriodApp",
   },
   {
-    num: "06",
+    num: "07",
     category: "Fullstack",
     title: "Facebook-StatusTapper-AndriodApp",
     description:
@@ -109,12 +126,27 @@ const projects = [
       { name: "XML" },
       { name: "Adobe Photoshop" },
     ],
-    image: "/assets/work/project06.png",
+    image: "/assets/work/project07.png",
     live: "https://github.com/arnobt78/Facebook-StatusTapper-AndriodApp",
     github: "https://github.com/arnobt78/Facebook-StatusTapper-AndriodApp",
   },
   {
-    num: "07",
+    num: "08",
+    category: "Fullstack",
+    title: "FreeScribe-ML-ReactVite-WebApp",
+    description:
+    "FreeScribe is a Machine Learning (ML) React Vite TailwindCSS Web Based Transcription and Translation App that uses Web Workers to run ML models in the browser. This app allows you to record your voice or upload an audio file (mp3/wav), transcribe it to text, translate it into any language, and download or copy the freshly converted text that has been transcribed and deployed on Vercel. This kind of app is essential and expensive in the IT manufacturing field, but it's integrated here smoothly, shared, and at no cost.",
+    stack: [
+      { name: "React.js Vite" },
+      { name: "Tailwind.css" },
+      { name: "Machine Learning" },
+    ],
+    image: "/assets/work/project08.png",
+    live: "https://free-scribe-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/FreeScribe-ML-ReactVite-WebApp",
+  },
+  {
+    num: "09",
     category: "Fullstack",
     title: "VRPTW-Solver-Comparison-pyApp",
     description:
@@ -126,9 +158,168 @@ const projects = [
       { name: "NP" },
       { name: "Big Data" },
     ],
-    image: "/assets/work/project07.png",
+    image: "/assets/work/project09.png",
     live: "https://github.com/arnobt78/VRPTW-Solver-Comparison-pyApp",
     github: "https://github.com/arnobt78/VRPTW-Solver-Comparison-pyApp",
+  },
+  {
+    num: "10",
+    category: "Fullstack",
+    title: "SwoleNormous-GymFit-ReactVite-WebApp",
+    description:
+      "SwoleNormous is an ultimate gym training app built with React Vite, Web Worker, TailwindCSS and deployed on Netfily.",
+    stack: [
+      { name: "React.js Vite" },
+      { name: "Tailwind.css" },
+      { name: "Web Worker" },
+      { name: "Shadcn-UI" },
+    ],
+    image: "/assets/work/project10.png",
+    live: "https://swolenormous-arnob.netlify.app",
+    github: "https://github.com/arnobt78/SwoleNormous-GymFit-ReactVite-WebApp",
+  },
+  {
+    num: "11",
+    category: "Fullstack",
+    title: "Gesture-Recognition-Control-Powerpoint-Presentation",
+    description:
+      "Gesture Recognition is an R&D project to control Microsoft Powerpoint while presenting on a large screen, using the Microsoft Kinect Sensor, C# and Kinect SDK. Using their right or left hand, the presenter can slide to the next or previous page. They can also zoom in or out by fisting their hand, and they can play or pause the presentation by displaying all or none of their fingers.",
+    stack: [
+      { name: "C#" },
+      { name: "Microsoft Kinect Sensor" },
+      { name: "Kinect SDK" },
+    ],
+    image: "/assets/work/project11.png",
+    live: "https://github.com/arnobt78/Gesture-Recognition-Control-Powerpoint-Presentation",
+    github: "https://github.com/arnobt78/Gesture-Recognition-Control-Powerpoint-Presentation",
+  },
+  {
+    num: "12",
+    category: "Fullstack",
+    title: "BlogWriting-Firebase-ReactWebpage",
+    description:
+      "BlogWriting is a simple Firebase React Web Application that mainly focuses on Firebase Setup, Configuration, Authentication, Provider, and Firestore Database to retrieve the data from the database and then display, create, and delete the data, using React-Loading-Skeleton, TailwindCSS, JavaScript, HTML and deploy on Netfily.",
+    stack: [
+      { name: "React.js" },
+      { name: "Firebase" },
+      { name: "Auth" },
+      { name: "React-Loading-Skeleton" },
+    ],
+    image: "/assets/work/project12.png",
+    live: "https://blogwriting-arnob.netlify.app",
+    github: "https://github.com/arnobt78/BlogWriting-Firebase-ReactWebpage",
+  },
+  {
+    num: "13",
+    category: "Frontend",
+    title: "Javascript-HTML-CSS-Web-Template",
+    description:
+      "Created a simple website template with navbar header, body, user sign-up, sign-in, footer, responsive screen for any device using HTML, CSS and Javascript.",
+    stack: [
+      { name: "Javascript" },
+      { name: "HTML" },
+      { name: "CSS" },
+    ],
+    image: "/assets/work/project13.png",
+    live: "https://github.com/arnobt78/Javascript-HTML-CSS-Web-Template",
+    github: "https://github.com/arnobt78/Javascript-HTML-CSS-Web-Template",
+  },
+  {
+    num: "14",
+    category: "Frontend",
+    title: "Shopmate-React-Redux-Webpage",
+    description:
+      "Shopmate is a demo React Redux E-Commerce Web Application (Global Level State Application), using Redux and Redux-Toolkit features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Redux, and Redux-Toolkit functionalities have been used in this project and deployed on Netlify. Note: Redux and Redux-Toolkit have been employed in this React project; useContext and useReducers have not been used here.",
+    stack: [
+      { name: "React.js" },
+      { name: "Redux" },
+      { name: "Redux-Toolkit" },
+      { name: "HTML" },
+      { name: "CSS" },
+    ],
+    image: "/assets/work/project14.png",
+    live: "https://shopmate-redux-arnob.netlify.app",
+    github: "https://github.com/arnobt78/Shopmate-React-Redux-Webpage",
+  },
+  {
+    num: "15",
+    category: "Frontend",
+    title: "Taskmate-ReactPage",
+    description:
+      "Taskmate is a simple React project where you can add a todo list, edit it, delete it, and also change the theme of the page using a local database.",
+    stack: [
+      { name: "React.js" },
+      { name: "Local-Storage" },
+      { name: "HTML" },
+      { name: "CSS" },
+    ],
+    image: "/assets/work/project15.png",
+    live: "https://taskmate-arnob.netlify.app/",
+    github: "https://github.com/arnobt78/Taskmate-ReactPage",
+  },
+  {
+    num: "16",
+    category: "Fullstack",
+    title: "MyPortfolio-NextJS-Webpage",
+    description:
+      "My Portfolio Webpage is a Mordern NextJS-v14 Framer-Motion React TailwindCSS Portfolio Webpage. Every component of this project uses the most recent Shadcn UI, Framer-Motion, Animation, Nodemailer capabilities, and deployed on Vercel.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "TailwindCSS" },
+      { name: "Framer-Motion" },
+      { name: "Shadcn-UI" },
+    ],
+    image: "/assets/work/project16.png",
+    live: "https://arnob-mahmud.vercel.app/",
+    github: "https://github.com/arnobt78/MyPortfolio-NextJS-Webpage",
+  },
+  {
+    num: "17",
+    category: "Fullstack",
+    title: "Blog-PyFlaskWebApp",
+    description:
+      "The website is a basic blog application where users may authenticate, log in, and post content. Other users can then like and comment on the article, or the user can delete the post and comments. (this application is still on going project to extend my knowledge)",
+    stack: [
+      { name: "Python" },
+      { name: "Flask" },
+      { name: "Auth" },
+      { name: "HTML" },
+      { name: "CSS" },
+    ],
+    image: "/assets/work/project17.png",
+    live: "https://github.com/arnobt78/Blog-PyFlaskWebApp",
+    github: "https://github.com/arnobt78/Blog-PyFlaskWebApp",
+  },
+  {
+    num: "18",
+    category: "Frontend",
+    title: "Shopmate-React-Context-Reducer-Webpage",
+    description:
+      "Shopmate is a demo React E-Commerce Web Application (Global Level State Application), using React useContext and useReducer features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Context, and Reducers functionalities have been used in this project and deployed on Netlify. Note: useContext and useReducer have been employed in this React project; Redux and Redux-Toolkit have not been used here.",  
+    stack: [
+      { name: "React.js" },
+      { name: "React-Context" },
+      { name: "React-Reducers" },
+      { name: "Routing" },
+    ],
+    image: "/assets/work/project18.png",
+    live: "https://shopmate-cr-arnob.netlify.app",
+    github: "https://github.com/arnobt78/Shopmate-React-Context-Reducer-Webpage",
+  },
+  {
+    num: "19",
+    category: "Frontend",
+    title: "TailwindCSS-SoundMate-WebPage",
+    description:
+      "TailwindCSS-SoundMate-WebPage is a demo single webpage with header logo, navbar, body with info, button, cards, footer and responsive screen for any device where using only TailwindCSS, Tailwind class extension JS and HTML.",
+    stack: [
+      { name: "React.js" },
+      { name: "TailwindCSS" },
+    ],
+    image: "/assets/work/project19.png",
+    live: "https://github.com/arnobt78/TailwindCSS-SoundMate-WebPage",
+    github: "https://github.com/arnobt78/TailwindCSS-SoundMate-WebPage",
   },
 ];
 
