@@ -321,6 +321,105 @@ const projects = [
     live: "https://github.com/arnobt78/TailwindCSS-SoundMate-WebPage",
     github: "https://github.com/arnobt78/TailwindCSS-SoundMate-WebPage",
   },
+  {
+    num: "20",
+    category: "Frontend",
+    title: "HotelBooking-ReactVite-Website",
+    description:
+      "Hotel-Booking is a Static React-Vite Frontend Website, using React.js, React-Compotents, React-context API, Hooks, TailwindCSS, React Date Picker, Responsive Mobile Menu, Swiper Slider, Data Loading Spinner Effect, Scroll To Top Component, when page or location changes and deploy on Netlify.",
+    stack: [
+      { name: "React.js" },
+      { name: "TailwindCSS" },
+      { name: "Swiper Slider" },
+    ],
+    image: "/assets/work/project20.png",
+    live: "https://hotel-booking-arnob.netlify.app",
+    github: "https://github.com/arnobt78/HotelBooking-ReactVite-Website",
+  },
+  {
+    num: "21",
+    category: "Frontend",
+    title: "CoffeeShop-NextJS-Webpage",
+    description:
+      "Coffee-Shop is a NextJS 14 Static Frontend Webpage, using React.js, Typescript, TailwindCSS, Framer-Motion, Locomotive-Scroll, Gsap, React-Icons, Split-Type, Swiper, Mobile NavBar features and deploy on Vercel.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "TailwindCSS" },
+      { name: "Framer-Motion" },
+    ],
+    image: "/assets/work/project21.png",
+    live: "https://coffeeshop-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/CoffeeShop-NextJS-Webpage",
+  },
+  {
+    num: "22",
+    category: "Frontend",
+    title: "SkinCare-Salon-NextJS-Website",
+    description:
+      "SkinCare-Salon is a NextJS 14 Static Frontend Website, using React.js, Typescript, TailwindCSS, Framer-Motion, Shadcn-UI, tailwindCSS-Animate, Lucide-React, React-Icons, React-Player, React-Reponsive, React-Countup features and deploy on Vercel.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "Typescript" },
+      { name: "TailwindCSS" },
+      { name: "Framer-Motion" },
+    ],
+    image: "/assets/work/project22.png",
+    live: "https://skincare-salon-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/SkinCare-Salon-NextJS-Website",
+  },
+  {
+    num: "23",
+    category: "Frontend",
+    title: "RestaurantJS-NextJS-Website",
+    description:
+      "RestaurantJS App is a NextJS 14 Static Frontend Website, using React.js, Javascript, TailwindCSS, Framer-Motion, TailwindCSS-Animate, Date-fns, React-Leaflet, Lucide-React, React-Day-Picker, React-Scroll, React-Icons, React-Responsive features and deploy on Vercel. Note: This static website is built using Javascript, I have developed the same static website using Typescript.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "Javascript" },
+      { name: "TailwindCSS" },
+      { name: "Framer-Motion" },
+    ],
+    image: "/assets/work/project23.png",
+    live: "https://restaurant-js-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/RestaurantJS-NextJS-Website",
+  },
+  {
+    num: "24",
+    category: "Frontend",
+    title: "RestaurantTS-NextJS-Website",
+    description:
+      "RestaurantTS App is a NextJS 14 Static Restaurant Landing Page, using React.js, Typescript, Webpack, TailwindCSS, Framer-Motion, TailwindCSS-Animate, Radix-UI, Date-fns, React-Leaflet, Lucide-React, React-Day-Picker, React-Scroll, React-Icons, React-Responsive features and deploy on Vercel. Note: This static webpage is built using Typescript, I have developed the same static webpage using Javascript.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "Typescript" },
+      { name: "TailwindCSS" },
+      { name: "Framer-Motion" },
+    ],
+    image: "/assets/work/project24.png",
+    live: "https://restaurant-ts-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/RestaurantTS-NextJS-Website",
+  },
+  {
+    num: "25",
+    category: "Frontend",
+    title: "AnimeVault-NextJS-Webpage",
+    description:
+      "Anime-Vault is a NextJS 14 Server Side App with Server Actions, Infinite Scroll, and Framer-Motion Animations, which displays the lists of all anime from Server Side API. This project aims to define, understand, separate, and implement Server Side Actions and Clint Side Actions in NextJS and deploy on Vercel.",
+    stack: [
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "Typescript" },
+      { name: "TailwindCSS" },
+      { name: "Framer-Motion" },
+    ],
+    image: "/assets/work/project25.png",
+    live: "https://anime-vault-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/AnimeVault-NextJS-Webpage",
+  },
 ];
 
 const Work = () => {
