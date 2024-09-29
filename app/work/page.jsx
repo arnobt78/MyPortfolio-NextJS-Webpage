@@ -310,7 +310,7 @@ const projects = [
   {
     num: "19",
     category: "Frontend",
-    title: "TailwindCSS-SoundMate-WebPage",
+    title: "SoundMate-TailwindCSS-Templet",
     description:
       "TailwindCSS-SoundMate-WebPage is a demo single webpage with header logo, navbar, body with info, button, cards, footer and responsive screen for any device where using only TailwindCSS, Tailwind class extension JS and HTML.",
     stack: [
@@ -318,8 +318,8 @@ const projects = [
       { name: "TailwindCSS" },
     ],
     image: "/assets/work/project19.png",
-    live: "https://github.com/arnobt78/TailwindCSS-SoundMate-WebPage",
-    github: "https://github.com/arnobt78/TailwindCSS-SoundMate-WebPage",
+    live: "https://github.com/arnobt78/SoundMate-TailwindCSS-Templet",
+    github: "https://github.com/arnobt78/SoundMate-TailwindCSS-Templet",
   },
   {
     num: "20",
@@ -419,6 +419,113 @@ const projects = [
     image: "/assets/work/project25.png",
     live: "https://anime-vault-arnob.vercel.app/",
     github: "https://github.com/arnobt78/AnimeVault-NextJS-Webpage",
+  },
+  {
+    num: "26",
+    category: "Fullstack",
+    title: "AI-Chat-Bot-ReactVite-Webpage",
+    description:
+      "AI-Chat-Bot is a complete project example with OpenAI ChatGPT and React-Vite, using OpenAI API, Emoji-Mart, UUID, and having a Chat History and New Chat Creation features, and deployed on Vercel.",
+    stack: [
+      { name: "React-Vite" },
+      { name: "OpenAI API" },
+      { name: "Javascript" },
+    ],
+    image: "/assets/work/project26.png",
+    live: "https://ai-chat-bot-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/AI-Chat-Bot-ReactVite-Webpage",
+  },
+  {
+    num: "27",
+    category: "Fullstack",
+    title: "Weather-ReactVite-Webpage",
+    description:
+      "Weather App is a React-Vite Weather Project, using OpenWeather API, displays the Weather Status, Temperature, Humidity, Wind of any city in the world, and deployed on Vercel.",  
+    stack: [
+      { name: "React-Vite" },
+      { name: "OpenWeather API" },
+      { name: "Javascript" },
+    ],
+    image: "/assets/work/project27.png",
+    live: "https://weather-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/Weather-ReactVite-Webpage",
+  },
+  {
+    num: "28",
+    category: "Fullstack",
+    title: "Quotes-ReactVite-Webpage",
+    description:
+      "Quotes App is a React-Vite Random Quotes Generator Project, using TheQuote API, displays the random quotes by famous Authors, Philosphers, Artists, or Movies, and saves them in a list as Favorites with delete options and deployed on Vercel.",
+    stack: [
+      { name: "React-Vite" },
+      { name: "TheQuote API" },
+      { name: "Javascript" },
+    ],
+    image: "/assets/work/project28.png",
+    live: "https://quotes-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/Quotes-ReactVite-Webpage",
+  },
+  {
+    num: "29",
+    category: "Fullstack",
+    title: "Calendar-ReactVite-Webpage",
+    description:
+      "Calendar App is a React-Vite Calendar To-Do Event Project, using Calendar, select any day of the month of the year and set the clock hour for the day to remember the event. Also, events can be changed and edited with delete options and deployed on Vercel.",  
+    stack: [
+      { name: "React-Vite" },
+      { name: "Calendar To-Do Clock Event" },
+      { name: "Javascript" },
+    ],
+    image: "/assets/work/project29.png",
+    live: "https://calendar-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/Calendar-ReactVite-Webpage",
+  },
+  {
+    num: "30",
+    category: "Fullstack",
+    title: "News-ReactVite-Webpage",
+    description:
+      "News App is a React-Vite Random Current World Related Live News Project, using GNews API, Axios for the HTTP Client Request, to display the news in different categories in Navbar, display the details in a popup page, read more as a source link, and deploy on Vercel.",    
+    stack: [
+      { name: "React-Vite" },
+      { name: "GNews API" },
+      { name: "Javascript" },
+    ],
+    image: "/assets/work/project30.png",
+    live: "https://news-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/News-ReactVite-Webpage",
+  },
+  {
+    num: "31",
+    category: "Fullstack",
+    title: "Translator-ReactVite-Webpage",
+    description:
+      "Translator App is a React-Vite Language Translator Project, using TailwindCSS, MyMemory API. Select various languages to translate from one another and in reverse order and deploy on Vercel.",
+    stack: [
+      { name: "React-Vite" },
+      { name: "MyMemory API" },
+      { name: "Javascript" },
+      { name: "TailwindCSS" },
+    ],
+    image: "/assets/work/project31.png",
+    live: "https://translator-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/Translator-ReactVite-Webpage",
+  },
+  {
+    num: "32",
+    category: "Frontend",
+    title: "Marketing-TailwindCSS-Templet",
+    description:
+      "Marketing-TailwindCSS-Templet is a Static React-Vite Frontend Landing Page, using React-Vite, TailwindCSS, Framer-Motion, React-Animate, React-Icons, and deployed on Netlify.",
+    stack: [
+      { name: "React-Vite" },
+      { name: "Framer-Motion" },
+      { name: "Javascript" },
+      { name: "TailwindCSS" },
+    ],
+    image: "/assets/work/project32.png",
+    live: "https://marketing-arnob.netlify.app",
+    github: "https://github.com/arnobt78/Marketing-TailwindCSS-Templet",
   },
 ];
 
