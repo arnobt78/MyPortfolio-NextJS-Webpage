@@ -36,7 +36,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    "3+ years of combined professional experience in Mobile App Development, UI/UX Design, Web Development, and Test Automation. Experience using Java, Angular, JavaScript, HTML, CSS, TypeScript, React, Vue, NodeJS, NextJS, PHP, TailwindCSS, Python, Rest API, Selenium, and MySQL in a work environment. I am open to working as a Frontend Developer/ UI/UX Designer/ Web Developer/ Mobile App Developer/ Software Test Engineer/ Quality Assurance Engineer/ IT Cyber Security.", 
+    "4+ years of combined professional experience in Mobile App Development, UI/UX Design, Web Development, and Test Automation. Experience using Java, Angular, JavaScript, HTML, CSS, TypeScript, React, Vue, NodeJS, NextJS, PHP, TailwindCSS, Python, Rest API, Selenium, and MySQL in a work environment. I am open to working as a Frontend Developer/ UI/UX Designer/ Web Developer/ Mobile App Developer/ Software Test Engineer/ Quality Assurance Engineer/ IT Cyber Security.", 
 info: [
     {
       fieldName: "Name",
