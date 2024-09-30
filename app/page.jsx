@@ -24,7 +24,7 @@ const Home = () => {
             <p className="max-w-[600px] mt-2 mb-9 text-white/80 text-justify">
               4+ years of combined professional experience in Mobile App Development, UI/UX
               Design, Web Development, and Test Automation, I excel at crafting elegant digital experiences and I am
-              proficient in multiple programming language and technological tools.
+              proficient in multiple programming languages and technological tools.
             </p>
 
             {/* button and socials */}
