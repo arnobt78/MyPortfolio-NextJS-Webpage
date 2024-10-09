@@ -21,7 +21,15 @@ const projects = [
     title: "eBookStore-ReactWebsite",
     description:
       "eBookStore is a full-fledged React E-Commerce Web Application (Global Level State Application) where you can place an order for codebooks. Frontend (deployed on Netlify) and Backend (deployed on Render) are separately developed here. Filter Properties, Search Option, JSON-Server, JSON-Server-Auth (User Login, Logout), JSON Web Tokens (JWT), Protected Routes, React-Toastify, Session Storage, Dark Mode Option, JSON API - Auth Service and Data Service, Log in as Guest, React Core, Hooks, TailwindCSS, Responsive Screen, Context, and Reducers have been used in this project.",
-    stack: [{ name: "React.js" }, { name: "AuthJSON" }, { name: "JWT" }, { name: "API" }, { name: "Tailwind.css" }, { name: "Node.js" }, { name: "HTML" }, ],
+    stack: [
+      { name: "React.js" },
+      { name: "AuthJSON" },
+      { name: "JWT" },
+      { name: "API" },
+      { name: "Tailwind.css" },
+      { name: "Node.js" },
+      { name: "HTML" },
+    ],
     image: "/assets/work/project01.png",
     live: "https://ebookstore-arnob.netlify.app",
     github: "https://github.com/arnobt78/eBookStore-ReactWebsite",
@@ -119,7 +127,7 @@ const projects = [
     category: "Fullstack",
     title: "Facebook-StatusTapper-AndriodApp",
     description:
-    "StatusTapper is an R&D mobile app for a client, where one can update their status on Facebook by uploading a photo in character mode that includes editable text.",
+      "StatusTapper is an R&D mobile app for a client, where one can update their status on Facebook by uploading a photo in character mode that includes editable text.",
     stack: [
       { name: "Java" },
       { name: "Andriod SDK" },
@@ -135,7 +143,7 @@ const projects = [
     category: "Fullstack",
     title: "FreeScribe-ML-ReactVite-WebApp",
     description:
-    "FreeScribe is a Machine Learning (ML) React Vite TailwindCSS Web Based Transcription and Translation App that uses Web Workers to run ML models in the browser. This app allows you to record your voice or upload an audio file (mp3/wav), transcribe it to text, translate it into any language, and download or copy the freshly converted text that has been transcribed and deployed on Vercel. This kind of app is essential and expensive in the IT manufacturing field, but it's integrated here smoothly, shared, and at no cost.",
+      "FreeScribe is a Machine Learning (ML) React Vite TailwindCSS Web Based Transcription and Translation App that uses Web Workers to run ML models in the browser. This app allows you to record your voice or upload an audio file (mp3/wav), transcribe it to text, translate it into any language, and download or copy the freshly converted text that has been transcribed and deployed on Vercel. This kind of app is essential and expensive in the IT manufacturing field, but it's integrated here smoothly, shared, and at no cost.",
     stack: [
       { name: "React.js Vite" },
       { name: "Tailwind.css" },
@@ -191,7 +199,8 @@ const projects = [
     ],
     image: "/assets/work/project11.png",
     live: "https://github.com/arnobt78/Gesture-Recognition-Control-Powerpoint-Presentation",
-    github: "https://github.com/arnobt78/Gesture-Recognition-Control-Powerpoint-Presentation",
+    github:
+      "https://github.com/arnobt78/Gesture-Recognition-Control-Powerpoint-Presentation",
   },
   {
     num: "12",
@@ -215,11 +224,7 @@ const projects = [
     title: "Javascript-HTML-CSS-Web-Template",
     description:
       "Created a simple website template with navbar header, body, user sign-up, sign-in, footer, responsive screen for any device using HTML, CSS and Javascript.",
-    stack: [
-      { name: "Javascript" },
-      { name: "HTML" },
-      { name: "CSS" },
-    ],
+    stack: [{ name: "Javascript" }, { name: "HTML" }, { name: "CSS" }],
     image: "/assets/work/project13.png",
     live: "https://github.com/arnobt78/Javascript-HTML-CSS-Web-Template",
     github: "https://github.com/arnobt78/Javascript-HTML-CSS-Web-Template",
@@ -296,7 +301,7 @@ const projects = [
     category: "Frontend",
     title: "Shopmate-React-Context-Reducer-Webpage",
     description:
-      "Shopmate is a demo React E-Commerce Web Application (Global Level State Application), using React useContext and useReducer features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Context, and Reducers functionalities have been used in this project and deployed on Netlify. Note: useContext and useReducer have been employed in this React project; Redux and Redux-Toolkit have not been used here.",  
+      "Shopmate is a demo React E-Commerce Web Application (Global Level State Application), using React useContext and useReducer features. React Core, Hooks, Routing, HTML, CSS, Responsive Screen, Context, and Reducers functionalities have been used in this project and deployed on Netlify. Note: useContext and useReducer have been employed in this React project; Redux and Redux-Toolkit have not been used here.",
     stack: [
       { name: "React.js" },
       { name: "React-Context" },
@@ -305,7 +310,8 @@ const projects = [
     ],
     image: "/assets/work/project18.png",
     live: "https://shopmate-cr-arnob.netlify.app",
-    github: "https://github.com/arnobt78/Shopmate-React-Context-Reducer-Webpage",
+    github:
+      "https://github.com/arnobt78/Shopmate-React-Context-Reducer-Webpage",
   },
   {
     num: "19",
@@ -313,10 +319,7 @@ const projects = [
     title: "SoundMate-TailwindCSS-Templet",
     description:
       "TailwindCSS-SoundMate-WebPage is a demo single webpage with header logo, navbar, body with info, button, cards, footer and responsive screen for any device where using only TailwindCSS, Tailwind class extension JS and HTML.",
-    stack: [
-      { name: "React.js" },
-      { name: "TailwindCSS" },
-    ],
+    stack: [{ name: "React.js" }, { name: "TailwindCSS" }],
     image: "/assets/work/project19.png",
     live: "https://github.com/arnobt78/SoundMate-TailwindCSS-Templet",
     github: "https://github.com/arnobt78/SoundMate-TailwindCSS-Templet",
@@ -440,7 +443,7 @@ const projects = [
     category: "Fullstack",
     title: "Weather-ReactVite-Webpage",
     description:
-      "Weather App is a React-Vite Weather Project, using OpenWeather API, displays the Weather Status, Temperature, Humidity, Wind of any city in the world, and deployed on Vercel.",  
+      "Weather App is a React-Vite Weather Project, using OpenWeather API, displays the Weather Status, Temperature, Humidity, Wind of any city in the world, and deployed on Vercel.",
     stack: [
       { name: "React-Vite" },
       { name: "OpenWeather API" },
@@ -470,7 +473,7 @@ const projects = [
     category: "Fullstack",
     title: "Calendar-ReactVite-Webpage",
     description:
-      "Calendar App is a React-Vite Calendar To-Do Event Project, using Calendar, select any day of the month of the year and set the clock hour for the day to remember the event. Also, events can be changed and edited with delete options and deployed on Vercel.",  
+      "Calendar App is a React-Vite Calendar To-Do Event Project, using Calendar, select any day of the month of the year and set the clock hour for the day to remember the event. Also, events can be changed and edited with delete options and deployed on Vercel.",
     stack: [
       { name: "React-Vite" },
       { name: "Calendar To-Do Clock Event" },
@@ -485,7 +488,7 @@ const projects = [
     category: "Fullstack",
     title: "News-ReactVite-Webpage",
     description:
-      "News App is a React-Vite Random Current World Related Live News Project, using GNews API, Axios for the HTTP Client Request, to display the news in different categories in Navbar, display the details in a popup page, read more as a source link, and deploy on Vercel.",    
+      "News App is a React-Vite Random Current World Related Live News Project, using GNews API, Axios for the HTTP Client Request, to display the news in different categories in Navbar, display the details in a popup page, read more as a source link, and deploy on Vercel.",
     stack: [
       { name: "React-Vite" },
       { name: "GNews API" },
@@ -514,9 +517,9 @@ const projects = [
   {
     num: "32",
     category: "Frontend",
-    title: "Marketing-TailwindCSS-Templet",
+    title: "Marketing-TailwindCSS-Template",
     description:
-      "Marketing-TailwindCSS-Templet is a Static React-Vite Frontend Landing Page, using React-Vite, TailwindCSS, Framer-Motion, React-Animate, React-Icons, and deployed on Netlify.",
+      "Marketing-TailwindCSS-Template is a Static React-Vite Frontend Landing Page, using React-Vite, TailwindCSS, Framer-Motion, React-Animate, React-Icons, and deployed on Netlify.",
     stack: [
       { name: "React-Vite" },
       { name: "Framer-Motion" },
@@ -526,6 +529,24 @@ const projects = [
     image: "/assets/work/project32.png",
     live: "https://marketing-arnob.netlify.app",
     github: "https://github.com/arnobt78/Marketing-TailwindCSS-Templet",
+  },
+  {
+    num: "33",
+    category: "Fullstack",
+    title: "HealthCare-NextJS-Website",
+    description:
+      "HealthCare is a healthcare patient management application using Next.js, Twilio (for SMS notification), TypeScript, TailwindCSS, Shadcn-UI, Zod (for From Validation), Sentry (to monitor performance and error), CLSX that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, and deployed on Vercel.",
+    stack: [
+      { name: "Next.js" },
+      { name: "Framer-Motion" },
+      { name: "Typescript" },
+      { name: "TailwindCSS" },
+      { name: "Shadcn-UI" },
+      { name: "Zod" },
+    ],
+    image: "/assets/work/project33.png",
+    live: "https://healthcare-arnob.vercel.app/",
+    github: "https://github.com/arnobt78/HealthCare-NextJS-Website",
   },
 ];
 
@@ -550,44 +571,43 @@ const Work = () => {
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="flex flex-col gap-[20px] h-[50%]">
-              
-            <div className="flex justify-between xl:flex-row xl:gap-[30px] xl:justify-between"> 
-              {/* outline num */}
-              <div className="text-5xl leading-none font-extrabold text-transparent text-outline">
-                {project.num}
-              </div>
+              <div className="flex justify-between xl:flex-row xl:gap-[30px] xl:justify-between">
+                {/* outline num */}
+                <div className="text-5xl leading-none font-extrabold text-transparent text-outline">
+                  {project.num}
+                </div>
 
-              {/* button */}
-              <div className="flex items-center gap-4">
-                {/* live project button */}
-                <Link href={project.live}>
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>Live project</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
-                
-                {/* github project button */}
-                <Link href={project.github}>
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsGithub className="text-white text-3xl group-hover:text-accent" />
-                      </TooltipTrigger>
-                      <TooltipContent>
-                        <p>Github Repository</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
+                {/* button */}
+                <div className="flex items-center gap-4">
+                  {/* live project button */}
+                  <Link href={project.live}>
+                    <TooltipProvider delayDuration={100}>
+                      <Tooltip>
+                        <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
+                          <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Live project</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
+                  </Link>
+
+                  {/* github project button */}
+                  <Link href={project.github}>
+                    <TooltipProvider delayDuration={100}>
+                      <Tooltip>
+                        <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
+                          <BsGithub className="text-white text-3xl group-hover:text-accent" />
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Github Repository</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
+                  </Link>
+                </div>
               </div>
-            </div>
 
               {/* projects category */}
               <h2 className="text-[32px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
@@ -595,29 +615,30 @@ const Work = () => {
               </h2>
 
               {/* project description */}
-              <p className="text-white/60 text-justify">{project.description}</p>
+              <p className="text-white/60 text-justify">
+                {project.description}
+              </p>
 
               {/* stack */}
-             <div className="w-full text-justify"> 
-              <ul className="flex flex-col gap-2 xl:flex-row">
-                {project.stack.map((item, index) => {
-                  return (
-                    <li key={index} className="text-l text-accent">
-                      {item.name}
-                      {/* removing the last comma  */}
-                      {index !== project.stack.length - 1 && ","}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
+              <div className="w-full text-justify">
+                <ul className="flex flex-col gap-2 xl:flex-row">
+                  {project.stack.map((item, index) => {
+                    return (
+                      <li key={index} className="text-l text-accent">
+                        {item.name}
+                        {/* removing the last comma  */}
+                        {index !== project.stack.length - 1 && ","}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
 
               {/* border */}
               <div className="border border-white/20"></div>
-              
             </div>
           </div>
-          
+
           <div className="w-full xl:w-[50%]">
             <Swiper
               spaceBetween={30}
@@ -647,7 +668,7 @@ const Work = () => {
                   </SwiperSlide>
                 );
               })}
-              
+
               {/* slider button */}
               <WorkSliderBtns
                 containerStyles="flex gap-2 absolute right-0 
