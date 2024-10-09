@@ -540,7 +540,6 @@ const projects = [
       { name: "Next.js" },
       { name: "Framer-Motion" },
       { name: "Typescript" },
-      { name: "TailwindCSS" },
       { name: "Shadcn-UI" },
       { name: "Zod" },
     ],
