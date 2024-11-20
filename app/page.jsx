@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import { Button } from "../components/ui/button";
 import { FiDownload } from "react-icons/fi";
@@ -13,32 +12,37 @@ const Home = () => {
     <section>
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-1 xl:pb-20">
-          
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <h1 className="h1 mb-5">
               Hello! I&apos;m <br />{" "}
               <span className="text-accent">Arnob Mahmud</span>
             </h1>
-            <span className="text-xl text-justify">Web/Mobile App Developer, UI/UX Designer, Tester (QA)</span>
+            <span className="text-xl text-justify">
+              Web/Mobile App Developer, UI/UX Designer, Tester (QA)
+            </span>
             <p className="max-w-[600px] mt-2 mb-9 text-white/80 text-justify">
-              4+ years of combined professional experience in Mobile App Development, UI/UX
-              Design, Web Development, and Test Automation, I excel at crafting elegant digital experiences and I am
-              proficient in multiple programming languages and technological tools.
+              4+ years of combined professional experience in Mobile App
+              Development, UI/UX Design, Web Development, and Test Automation, I
+              excel at crafting elegant digital experiences and I am proficient
+              in multiple programming languages and technological tools.
             </p>
 
             {/* button and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-            <Link href="https://drive.google.com/file/d/1S-HRBspbFqbBx-iw758-jgSPTUX5ogAx/view?usp=sharing" target="_blank">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
+              <Link
+                href="https://drive.google.com/file/d/1Fgj1vXlc8tonJ1-zxUoKTS3wPRD1Ddri/view?usp=sharing"
+                target="_blank"
               >
-                <span>Download Resume </span>
-                <FiDownload />
-              </Button>
-            </Link>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download Resume </span>
+                  <FiDownload />
+                </Button>
+              </Link>
               <div className="mb:8 xl:mb-0 ">
                 <Social
                   containerStyles="flex gap-6"
