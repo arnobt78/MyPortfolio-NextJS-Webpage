@@ -31,7 +31,7 @@ const Home = () => {
             {/* button and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Link
-                href="https://drive.google.com/file/d/1Fgj1vXlc8tonJ1-zxUoKTS3wPRD1Ddri/view?usp=sharing"
+                href="https://drive.google.com/file/d/1gCbh5M7cZRVKovP1w2IYVQH_gxWVgsCa/view?usp=sharing"
                 target="_blank"
               >
                 <Button
