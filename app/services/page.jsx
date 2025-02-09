@@ -7,38 +7,38 @@ import { BsArrowDownRight } from "react-icons/bs";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Web / Mobile Development",
     description:
       "Experienced web developer with a focus on crafting responsive, user-friendly websites and scalable web applications. Dedicated to delivering clean code and innovative solutions that are customized to meet your business needs.",
-      href: "/contact",
-  },
-  {
-    num: "02",
-    title: "UI/UX Design",
-    description:
-    "Creative UI/UX designer dedicated to crafting intuitive and visually appealing digital experiences. I translate user insights into seamless, engaging designs that enhance interaction and satisfaction.",
     href: "/contact",
   },
   {
-    num: "03",
-    title: "Mobile App Development",
+    num: "02",
+    title: "UI / UX Design",
     description:
-      "Skilled mobile app developer specializing in iOS and Android, I deliver high-performance mobile and web apps tailored to your needs. I transform ideas into fully functional, user-centric applications with sleek interfaces and strong backend solutions.",
-      href: "/contact",
+      "Creative UI/UX designer dedicated to crafting intuitive and visually appealing digital experiences. I translate user insights into seamless, engaging designs that enhance interaction and satisfaction.",
+    href: "/contact",
+  },
+  // {
+  //   num: "03",
+  //   title: "Mobile App Development",
+  //   description:
+  //     "Skilled mobile app developer specializing in iOS and Android, I deliver high-performance mobile and web apps tailored to your needs. I transform ideas into fully functional, user-centric applications with sleek interfaces and strong backend solutions.",
+  //     href: "/contact",
+  // },
+  {
+    num: "03",
+    title: "QA Test Automation",
+    description:
+      "Detail-oriented Software Testing (QA) Engineer with expertise in ensuring high-quality software through rigorous testing. I specialize in identifying defects, optimizing performance, and ensuring that applications meet user requirements. I’m committed to delivering reliable, bug-free solutions that enhance user satisfaction and drive business success.",
+    href: "/contact",
   },
   {
     num: "04",
-    title: "Software Testing (QA) Engineer",
-    description:
-      "Detail-oriented Software Testing (QA) Engineer with expertise in ensuring high-quality software through rigorous testing. I specialize in identifying defects, optimizing performance, and ensuring that applications meet user requirements. I’m committed to delivering reliable, bug-free solutions that enhance user satisfaction and drive business success.",
-      href: "/contact",
-  },
-  {
-    num: "05",
-    title: "IT Cyber Security Specialist",
+    title: "Cyber Security",
     description:
       "Focused on safeguarding digital assets and systems from cyber threats. I excel in implementing robust security measures, monitoring vulnerabilities, and developing strategies to protect sensitive information. My commitment is to ensure the integrity, confidentiality, and availability of your data, providing peace of mind and robust protection against evolving cyber threats.",
-      href: "/contact",
+    href: "/contact",
   },
 ];
 
@@ -77,7 +77,9 @@ const Services = () => {
                   {service.title}
                 </h2>
                 {/* description  */}
-                <p className="text-white/60 text-justify">{service.description}</p>
+                <p className="text-white/60 text-justify">
+                  {service.description}
+                </p>
                 {/* border */}
                 <div className="border-b border-white/20 w-full"></div>
               </div>
